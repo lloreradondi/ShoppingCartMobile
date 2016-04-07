@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ordering</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="settings">Settings</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="empty_shopping_cart_message">No Shopping Cart Items</string>
+    <string name="empty_product_list_message">No Products Available</string>
+</resources>

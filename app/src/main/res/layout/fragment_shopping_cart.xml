@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/shoppingCartEmptyMessage"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/empty_message_size"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/empty_shopping_cart_message"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewShoppingCartItems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>
